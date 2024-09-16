@@ -31,3 +31,23 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.flex-container{
+    display: flex;
+}
+.box {
+    border: 2px solid black;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 450px;
+    height: 200px;
+    line-height: 25px;
+    text-align: center;
+    margin: 10px;
+    transition: 0.3s;
+}
+.box:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
